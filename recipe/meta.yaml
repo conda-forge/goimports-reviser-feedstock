@@ -1,5 +1,5 @@
 {% set name = "goimports-reviser" %}
-{% set version = "3.8.2" %}
+{% set version = "3.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/incu6us/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 251eee4880f6f6d73f55cf38a361c5aa419c55e5ea41eb7db0eb1aec413f06e7
+  sha256: fc580098fbbdac968e34556fd8de01fac0caae232e8644ae8ae14105582bcac1
 
 build:
   number: 0
