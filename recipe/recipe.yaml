@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.12.5"
+  version: "3.12.6"
 
 package:
   name: goimports-reviser
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/incu6us/goimports-reviser/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 90b97c2ae009e858e665bf26c5b20da0a360d1b3f7066549ed26a42fbde1c1db
+  sha256: f89b39bd6888c8a1919394c1d3dd2f622da38855f1709879c3fbdde8e6bf540b
 
 build:
   number: 0
